@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title> Hodor </title>
+    <link rel="icon" type="imagem/png" href="assets/imagens/logo.png"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div id="overlay">
+                <a id="hNameUser" href="#">.</a>
+                
+                <a href="home.html">  Home <img src="assets/imagens/svg/home.svg" alt=""></a>
+                <a id="hlogin" href = "index.html"> Login <img src="assets/imagens/svg/log-in.svg" alt=""></a>
+                <a href="EntreEmContato.html">Suporte <img src="assets/imagens/svg/message-square.svg" alt=""> </a>
+                <h2 id="hlogout" onclick="logout();">Exit <img src="assets/imagens/svg/log-out.svg" alt=""> </h2>
+
+            </div>
+            <div class="nav">
+                <div class="logo">
+                    <img src="assets/imagens/logo.png" alt="">
+                </div>
+                <div id="hamburger">
+                    <img id="imgAvatar" src="file://null" alt="Avatar not load"/>
+                    <img id="imgHamb" src="./assets/imagens/svg/avatar.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header id="banner">
+        <div id="banner__conteudo">
+            <h1 id="banner__titulo">Carregando...</h1>
+            <div id="banner__botoes">
+                <a href="home.html" class ="banner__botao" >
+                    Random
+                </a>      
+                <a href="" id="btnTrailer" class ="banner__botao" >
+                    Trailer
+                </a>
+            </div>
+            <p id="banner__descricao"></p>
+        </div>
+        <div id="banner__fadeBottom"></div>
+    </header>
+
+    <div id="headrow">
+        <div class="row">
+        </div>
+    </div>
+  
+    <script src="./assets/scripts/logout.js"></script>
+    <script src="./assets/scripts/hamburger.js"></script>
+    <script src="./assets/scripts/loadMovies.js"></script>
+    <script src="./assets/scripts/startup.js"></script>   
+</body>
+
+</html>
